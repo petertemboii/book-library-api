@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Nest build output
+dist/
+
+# Environment variables
+.env
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+
+# System files from macOS
+.DS_Store
+
+# Optional: Uncomment based on your setup
+# Nest generated files
+# .nest
+
+# Optional: Uncomment if using TypeScript
+# TypeScript build outputs
+*.tsbuildinfo
+
+# Optional: Uncomment if using testing frameworks
+# Test coverage output
+# coverage/
