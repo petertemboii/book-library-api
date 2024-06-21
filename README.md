@@ -1,6 +1,13 @@
-# Book Library Api
+# Book Library Backend (API)
 
 This is a simple RESTful API built with NestJS for managing a book library.
+
+## Technology Choices
+
+- NestJS: A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
+- TypeScript: A statically typed superset of JavaScript that enhances code quality and maintainability.
+- Class Validator: For validating request data.
+- In-memory Database: For simplicity and demonstration purposes, using an in-memory array to store books.
 
 ## Features
 
@@ -8,10 +15,15 @@ This is a simple RESTful API built with NestJS for managing a book library.
 - Endpoints: API endpoints for managing books.
 - Data Storage: In-memory storage (for demonstration purposes).
 
+## Additional Features Implemented
+
+- Custom Exception Handling: Provides user-friendly error messages when a book is not found or validation fails.
+- In-memory Database: Simplifies development and testing by using an in-memory array to store books.
+
 ## Prerequisites
 
 - Node.js (v16 or above)
-- npm (v6 or above)
+- npm (v6 or above) or Yarn (v1.22 or above)
 
 ## Installation
 
@@ -23,12 +35,16 @@ cd book-library-api
 ### Install dependencies:
 
 npm install
+or
+yarn install
 
 ## Running the Application
 
 ### Start the development server:
 
 npm run start:dev
+or
+yarn start:dev
 
 The server will start at http://localhost:3001 by default.
 
